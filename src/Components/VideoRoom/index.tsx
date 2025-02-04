@@ -100,7 +100,7 @@ const VideoRoom = () => {
       console.error(e);
       return undefined;
     }
-  }, []);
+  }, [username]);
 
   const createReceivePC = useCallback(
     (id: string) => {
